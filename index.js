@@ -8,6 +8,6 @@ module.exports.new = () => {
   themekit.command('new', {
     password: doc.development.password,
     store: doc.development.store,
-    name: process.argv[1] || 'Basic Theme'
+    name: process.argv[1] || 'Workshop Basic Theme'
   })
 }
