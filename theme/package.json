@@ -10,7 +10,6 @@
   "scripts": {
     "open": "shopify-themekit open",
     "deploy": "shopify-themekit deploy",
-    "watch": "shopify-themekit watch",
-    "new": "node -e 'require(\"./index\").new()'"
+    "watch": "shopify-themekit watch"
   }
 }
