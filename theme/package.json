@@ -5,8 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@shopify/themekit": "^1.1.4",
-    "js-yaml": "^3.14.0"
+    "@shopify/themekit": "^1.1.4"
   },
   "scripts": {
     "open": "shopify-themekit open",
