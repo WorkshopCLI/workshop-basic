@@ -12,9 +12,13 @@ A basic Shopify workflow. This is a completely blank theme that gives you a blan
 
 ## Create New Theme on Storefront
 
-- Run `yarn new` to create a new theme. The default name is Basic Theme, but you can pass a custom name to this command like `yarn new custom-theme-name`. If you want spaces in your theme name use quotes `yarn new "Custom Theme"`
+- New themes need to be uploaded to Shopify via a zip file.
+- Run `yarn zip` to a folder called workshop-basic-theme.zip.
+- This command can be run with an extra argument for a custom name `yarn zip hello` will create hello.zip.
+- Then under themes within the Shopify admin click the Upload theme button and select the zip file
 
 ## Development Commands
 - `yarn deploy`: To deploy all files to your theme
 - `yarn watch`: To watch changes and deploy files as they're changed
 - `yarn open`: Open your theme in a browser tab
+- `yarn zip`: Creates a Zip file of your theme code in its current state.

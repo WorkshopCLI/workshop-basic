@@ -5,11 +5,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@shopify/themekit": "^1.1.4"
+    "@shopify/themekit": "^1.1.4",
+    "archiver": "^5.0.0"
   },
   "scripts": {
     "open": "shopify-themekit open",
     "deploy": "shopify-themekit deploy",
-    "watch": "shopify-themekit watch"
+    "watch": "shopify-themekit watch",
+    "zip": "node -e 'require(\"./index.js\").zip()'"
   }
 }
