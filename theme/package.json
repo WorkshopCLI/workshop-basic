@@ -1,0 +1,17 @@
+{
+  "name": "workshop-basic-workflow",
+  "version": "0.0.0",
+  "description": "Workshop Basic Workflow",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@shopify/themekit": "^1.1.4",
+    "js-yaml": "^3.14.0"
+  },
+  "scripts": {
+    "open": "shopify-themekit open",
+    "deploy": "shopify-themekit deploy",
+    "watch": "shopify-themekit watch",
+    "new": "node -e 'require(\"./index\").new()'"
+  }
+}
