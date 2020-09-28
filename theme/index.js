@@ -43,8 +43,6 @@ const zip = () => {
   // append files from a sub-directory, putting its contents at the root of archive
   archive.directory('./src/', false);
   archive.finalize();
-
-  console.info('it is new boo')
 }
 
 module.exports = {
