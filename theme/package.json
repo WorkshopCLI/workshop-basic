@@ -12,6 +12,6 @@
     "open": "shopify-themekit open",
     "deploy": "shopify-themekit deploy",
     "watch": "shopify-themekit watch",
-    "zip": "node -e 'require(\"./index.js\").zip()'"
+    "zip": "node -e \"require('./index.js').zip()\""
   }
 }
